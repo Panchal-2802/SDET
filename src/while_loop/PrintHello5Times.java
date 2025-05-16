@@ -6,7 +6,7 @@ public class PrintHello5Times {
 		int i = 1;
 		while(i<=5) {
 			System.out.println("hello");
-			i++;
+			++i;
 		}
 
 	}
