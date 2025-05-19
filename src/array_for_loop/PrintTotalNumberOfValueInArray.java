@@ -9,8 +9,8 @@ public class PrintTotalNumberOfValueInArray {
 		System.out.print("Print the whole value of array by java predefined method : ");
 		System.out.print(Arrays.toString(a));
 		System.out.println();
-		for(int i=1; i<=a.length-1; i++) {
-			System.out.println(i + " ");
+		for(int i=0; i<a.length; i++) {
+			System.out.print(a[i] + " ");
 		}
 
 	}
