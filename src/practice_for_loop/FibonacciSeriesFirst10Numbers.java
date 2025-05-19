@@ -3,7 +3,7 @@ package practice_for_loop;
 public class FibonacciSeriesFirst10Numbers {
 
 	public static void main(String[] args) {
-		/*int a = 0;
+		int a = 0;
 		int b = 1;
 		int n = 10;
 		System.out.print(a+" " + b+ " ");
@@ -14,8 +14,8 @@ public class FibonacciSeriesFirst10Numbers {
 			b=NextFibonacci;
 			
 		}
-		System.out.println(" ");
- approach two with array*/
+		/*System.out.println(" ");
+ approach two with array
 		int c=10;
 		int Fibonacci[]=new int[c];
 		Fibonacci[0]=0;
@@ -26,6 +26,6 @@ public class FibonacciSeriesFirst10Numbers {
 		System.out.print("The Value of 10 fibonacci value : " );
 		for (int i=0; i<c; i++) {
 			System.out.print(Fibonacci[i]+" ");
-		}
+		}*/
 	}
 }
