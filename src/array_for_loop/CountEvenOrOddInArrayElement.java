@@ -32,6 +32,13 @@ public class CountEvenOrOddInArrayElement {
 			}
 		}
 		System.out.println("The total count of odd number is : " + count);
+		
+		// approach - 2 on;y even number
+		for(int i=0; i<nums.length; i++) {
+			if(nums[i]%2==0) {	
+				System.out.print(nums[i] + " ");
+			}
+		}
 	}
 
 }
