@@ -16,6 +16,17 @@ public class FindLargestAndSmallestNumberInArray {
 		}
 		System.out.println("largest number is : " + max);
 		//System.out.println("Minimum number is : " + min);
+		
+		// approach - 2 find only min number
+		int nums[] = {5, 3, 8, 6, 2, 7, 4, 1};
+		int min1=nums[0];
+		for(int i=0; i<nums.length; i++) {
+			if(nums[i]<min1) {
+				min1=nums[i];
+			}
+		}
+		System.out.println(); // just to make console readable 
+		System.out.println("The smallest number of array element is : " + min1);
 
 	}
 	
