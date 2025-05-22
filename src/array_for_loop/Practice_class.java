@@ -41,7 +41,7 @@ public class Practice_class {
 		// Print array element in reverse
 	     for(int i=5; i>=0; i--) {
 	    	System.out.print( b[i] + " ");
-	     }*/
+	     }
 		
 		// print only even number
 		int nums[] = {5, 3, 8, 6, 2, 7, 4, 1};
@@ -84,7 +84,7 @@ public class Practice_class {
 			if(nums[i]>avg) {
 				System.out.print(nums[i]+" ");
 			}
-		}
+		}*/
 		
 	}
 
