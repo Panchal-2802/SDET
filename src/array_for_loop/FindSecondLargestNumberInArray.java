@@ -3,7 +3,7 @@ package array_for_loop;
 public class FindSecondLargestNumberInArray {
 
 	public static void main(String[] args) {
-		int b[]= {4,9,2,6,1,7,10};
+		int b[]= {4,9,2,6,1,7,10,11};
 		int max=b[0];
 		int second_max=b[0];
 		for(int i=0; i<b.length; i++) {
