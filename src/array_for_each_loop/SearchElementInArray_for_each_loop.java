@@ -4,7 +4,7 @@ public class SearchElementInArray_for_each_loop {
 
 	public static void main(String[] args) {
 		int a[]= {1,2,3,5,6,4};
-		int search_element=8;
+		int search_element=4;
 		boolean status = false;
 		for(int x:a) {
 			if(x==search_element) {
