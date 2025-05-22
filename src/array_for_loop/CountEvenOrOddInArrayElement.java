@@ -23,7 +23,15 @@ public class CountEvenOrOddInArrayElement {
 		}
 		System.out.println("Total even number are found in array element is " + Even_Count + " With the number of " + Even_num);
 		System.out.println("Total odd number present in array element : " + Odd_count + " With the number : " + Odd_num);
-
+       // approach - 2 only odd number
+		int[] nums = {5, 3, 8, 6, 2, 7, 4, 1}; //8
+		int count=0;
+		for(int i=0; i<nums.length;i++) {
+			if(nums[i]%2!=0) {
+				count++;
+			}
+		}
+		System.out.println("The total count of odd number is : " + count);
 	}
 
 }
