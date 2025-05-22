@@ -19,6 +19,7 @@ public class FindSecondLargestNumberInArray {
 		}
 		System.out.println("The second max element of array is : " + second_max);
 		
+		// approach - 2
 		int a[]= {4,9,2,6,1,7,10};
 		int max1=a[0];
 		int sec_max=a[0];

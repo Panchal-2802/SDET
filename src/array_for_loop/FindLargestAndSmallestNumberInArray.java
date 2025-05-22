@@ -10,13 +10,14 @@ public class FindLargestAndSmallestNumberInArray {
 			if(a[i]>max) { // a[1]=2>5 -- no
 				max=a[i]; // max=a[1]=2
 			}
-			else if(a[i]<min){
-				min=a[i];
-			}
+//			else if(a[i]<min){
+//				min=a[i];
+//			}
 		}
 		System.out.println("largest number is : " + max);
-		System.out.println("Minimum number is : " + min);
+		//System.out.println("Minimum number is : " + min);
 
 	}
+	
 
 }
