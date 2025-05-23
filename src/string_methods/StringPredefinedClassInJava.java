@@ -88,6 +88,15 @@ public static void main(String[] args) {
 	System.out.println(d[0]);//123
 	System.out.println(d[1]);//xyz
 	
+	String s14 ="abc gmail";
+	String e[]=s14.split(" ");
+	System.out.println(Arrays.toString(e));
+	
+	String s15="John Kennedy";
+	System.out.println(s15.equalsIgnoreCase("john"));
+	System.out.println(s15.toLowerCase().contains("john"));
+	System.out.println(s15.toUpperCase().contains("JOHN"));
+	System.out.println(s15.replace("J", "j").contains("john"));
 	
 }
 }
