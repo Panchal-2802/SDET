@@ -52,7 +52,7 @@ public static void main(String[] args) {
 	System.out.println("To replace a whole word : " + s8.replace("hardik", "sanjay"));
 	System.out.println("To replace single char : " + s8.replace('a', 'h'));
 	
-	// substring() -- thumbrule start index start from 0 but end index ends with start index+1
+	// substring() -- thumb rule start index start from 0 but end index ends with start index+1
 	String s9="Selenium";
 	System.out.println(s9.substring(0, 6));
 	
@@ -61,6 +61,9 @@ public static void main(String[] args) {
 	String s10="hardik";
 	System.out.println(s10.toUpperCase());
 	System.out.println(s10.toLowerCase());
+	
+	// split() - to split the string into multiple parts based on delimeter
+	
 	
 }
 }
