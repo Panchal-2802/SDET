@@ -38,6 +38,8 @@ public class StringComparision {
 		System.out.println(s9==s10);//false
 		System.out.println(s9.equals(s10));//true
 		System.out.println(s10==s11);//true
+		System.out.println(s10.equals(s11));
+		System.out.println(s9==s11);//false
 
 	}
 
