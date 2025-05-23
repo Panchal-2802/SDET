@@ -1,5 +1,7 @@
 package string_methods;
 
+import java.util.Arrays;
+
 public class StringPredefinedClassInJava {
 	
 public static void main(String[] args) {
@@ -51,6 +53,9 @@ public static void main(String[] args) {
 	String s8="Hi my name is hardik" ;
 	System.out.println("To replace a whole word : " + s8.replace("hardik", "sanjay"));
 	System.out.println("To replace single char : " + s8.replace('a', 'h'));
+	String s12="$15,12,13"; //output:-151213
+	System.out.println(s12.replace("$", "").replace(",", ""));
+	
 	
 	// substring() -- thumb rule start index start from 0 but end index ends with start index+1
 	String s9="Selenium";
@@ -63,6 +68,25 @@ public static void main(String[] args) {
 	System.out.println(s10.toLowerCase());
 	
 	// split() - to split the string into multiple parts based on delimeter
+	// Note:- delimeter means special character from which the string needs to separate ex: @,!,',' space is also a delimieter...
+	// Not consider as delimeter :*, %, ^, &, - 
+	String s11="abc@gmail.com";
+	String a[]=s11.split("@"); // we store two different string
+	System.out.println(a[0]); // abc
+	System.out.println(a[1]); // gmail.com
+	System.out.println(Arrays.toString(a));
+	String b[]=s11.split("b");
+	System.out.println(b[0]);
+	System.out.println(b[1]);
+	System.out.println(Arrays.toString(b));
+	
+	String s13="abc,123@xyz";
+	String c[]=s13.split(",");
+	System.out.println(Arrays.toString(c));//[abc,  123@xyz]
+	String d[]=c[1].split("@");
+	System.out.println(Arrays.toString(d));//[123, xyz]
+	System.out.println(d[0]);//123
+	System.out.println(d[1]);//xyz
 	
 	
 }
