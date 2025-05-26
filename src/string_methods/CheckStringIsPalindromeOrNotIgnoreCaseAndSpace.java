@@ -5,13 +5,11 @@ public class CheckStringIsPalindromeOrNotIgnoreCaseAndSpace {
 	Problem:
 	Check if the given string is a palindrome (same forwards and backwards), 
 	ignoring spaces and case.
-
-	📥 Example:
 	Input: "Race car"
 	Output: true
-   🧠 Hint: First remove spaces, convert to lowercase, then compare with reversed version.*/
+   Hint: First remove spaces, convert to lowercase, then compare with reversed version.*/
 	public static void main(String[] args) {
-		String s1 = "Race cae";
+		String s1 = "Race car";
 		String s2 = s1.replace(" ", "");
 		String rev = "";
 		System.out.println("New string without space : " + s2);
