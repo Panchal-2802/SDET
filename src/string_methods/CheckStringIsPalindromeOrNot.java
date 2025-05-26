@@ -1,5 +1,7 @@
 package string_methods;
 
+import java.util.Arrays;
+
 public class CheckStringIsPalindromeOrNot {
 
 	public static void main(String[] args) {
@@ -26,6 +28,7 @@ public class CheckStringIsPalindromeOrNot {
 		// Aprroach - 2
 		String rev2="";
 		char a[]=s1.toCharArray();
+		//System.out.println(Arrays.toString(a));
 		for(int i=a.length-1; i>=0; i--) {
 			rev2+=a[i];
 		}
