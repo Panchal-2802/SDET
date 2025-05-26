@@ -37,5 +37,5 @@ public class PrintRightHandedTriangleWithNumber {
   123
   1234
   12345
--- Jayare rows ni andar value vadhe tyare hamesa inner loop 
+-- Jayare rows ni andar value increase thati jaai tyare hamesa inner loop 
 variable print karvano */

@@ -6,9 +6,12 @@ public class CheckStringIsPalindromeOrNot {
 		// Appraoch - 1
 		String s1="Bob";
 		String rev="";
+		System.out.println(s1.length());
 		for(int i=s1.length()-1; i>=0; i--) {
-			rev+=s1.charAt(i);
-		}
+			rev+=s1.charAt(i);// rev = rev+s1.charAt(2)=> rev=b
+			                  // rev = rev+s1.charAt(1)=> rev=bo
+			                  // rev = rev+s1.chartAt(0)=> rev=boB
+		}//i-- 1 0
 		System.out.println("By charAt Method");
 		System.out.println("-----------------");
 		System.out.println("Reverse string : " + rev);

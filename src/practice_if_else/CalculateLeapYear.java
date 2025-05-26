@@ -3,7 +3,7 @@ package practice_if_else;
 public class CalculateLeapYear {
 
 	public static void main(String[] args) {
-		int year = 2000;
+		int year = 2001;
 		if (year%400 == 0) {
 			System.out.println("The entered number is a leap year because divisible by 400 : " + year);
 		}

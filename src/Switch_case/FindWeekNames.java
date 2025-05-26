@@ -3,7 +3,7 @@ package Switch_case;
 public class FindWeekNames {
 
 	public static void main(String[] args) {
-		int Day = 8;
+		int Day =7;
 	
 		// without using break statement
 		/*switch(Day) {

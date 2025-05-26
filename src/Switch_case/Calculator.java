@@ -7,7 +7,7 @@ public class Calculator {
 	public static void main(String[] args) {
 		int a=10;
 		int b=0;
-		String operator = "/";
+		String operator = "!";
           switch(operator) {
 	            case "+" : 
 	                System.out.println("The addition of a & b : " + (a + b));
