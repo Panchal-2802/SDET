@@ -17,7 +17,7 @@ public class CheckGivenStringIsPalindromeOrNot {
 		else {
 			System.out.println("The given string is not palidrome");
 		}
-		// apporach-1
+		// apporach-11
 
 	}
 
