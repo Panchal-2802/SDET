@@ -13,6 +13,12 @@ Output: "weivretnI"
 		for(int i=s2.length-1; i>=0;i--) {
 			System.out.print(s2[i]);
 		}
+		//approach - 2
+		System.out.println("By approach - 2");
+		for(int j=s1.length()-1; j>=0; j--) {
+			System.out.print(s1.charAt(j));
+		}
+		
 
 	}
 
