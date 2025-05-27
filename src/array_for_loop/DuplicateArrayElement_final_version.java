@@ -1,6 +1,6 @@
 package array_for_loop;
 
-public class DuplicateArrayElement {
+public class DuplicateArrayElement_final_version {
 	/*You are given an array of integers. Print all the elements that occur more than once.
 	Input: {1, 2, 3, 2, 4, 5, 1}
 	Output: 1 2
@@ -21,22 +21,5 @@ public class DuplicateArrayElement {
 		if(isDuplicate==false) {
 			System.out.println("No duplicate element found");
 		}
-		
-		// approach - 2
-		int arr1[]= {1, 2, 3, 2, 4, 5, 1,1,3,3};
-		System.out.println("apporach - 2");
-		boolean duplicate=false;
-		int count=0;
-		for(int i=0; i<arr1.length;i++) {
-			for(int j=i+1; j<arr1.length; j++) {
-				if(arr1[i]==arr1[j]) {
-					count++;	
-			}
-		 }
-			if(count==1) {
-				System.out.println(arr1[i]);
-				count=0;
-			}
-	  }
    }
 }
