@@ -1,6 +1,6 @@
 package array_for_loop;
 
-public class RemoveDuplicateWithoutUsingSet {
+public class RemoveDuplicateArrayElementAndPrintUniqueArrayElement {
 // Remove duplicate and print unique value of array
 	public static void main(String[] args) {
 		int nums[] = {1, 2, 2, 3, 3, 3};
