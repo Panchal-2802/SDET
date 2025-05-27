@@ -1,6 +1,6 @@
 package array_for_loop;
 
-public class FindNumberOfDuplicationInArray {
+public class CountNumberOfDuplicateArrayElement {
 
 	public static void main(String[] args) {
 		int a[]= {1,1,2,36,1,1};
