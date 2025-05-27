@@ -2,7 +2,7 @@ package string_methods;
 
 import java.util.Arrays;
 
-public class FindMaxLengthOfWordInGivenString {
+public class FindMaxLengthOfWordInGivenString_interview {
 	 /*Find the Word with the Maximum Length in a Sentence
 	 Problem:
 	 Input: "Coding is powerful and creative"
