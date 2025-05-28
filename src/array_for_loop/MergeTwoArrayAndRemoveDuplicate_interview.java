@@ -25,9 +25,11 @@ public class MergeTwoArrayAndRemoveDuplicate_interview {
 				if(temp[i]==temp[j]) {
 					isDuplicate=true;
 					break;
+					
 				}
+
 			}
-			if(!isDuplicate) {
+			if(!isDuplicate) {// to print unique value after removing duplicate
 				System.out.print(temp[i]+" ");
 		}
 
