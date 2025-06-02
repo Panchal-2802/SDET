@@ -18,9 +18,11 @@ void setData(int id, String fullName, int age) {
 }
 
 // using constructor
-DifferentWaysToDeclareVariable(int roll, String FullName, int std){
+public DifferentWaysToDeclareVariable(int roll, String FullName, int std){
 	sid=roll; name=FullName; standard=std;
 }
+	
+
 	public static void main(String[] args) {
 		// by using object reference
 		/*DifferentWaysToDeclareVariable class1 = new DifferentWaysToDeclareVariable();
