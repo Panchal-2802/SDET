@@ -26,8 +26,8 @@ public class Encapsulation {
 		return accountNum;
 	}
 
-	public void setAccountNum(long accountNum) {
-		this.accountNum = accountNum;
+	public void setAccountNum(long accountNum) { // long accountNum is local variable
+		this.accountNum = accountNum; // note:- this keyword always refer to class variable not a local variable
 	}
 
 	public String getUserName() {
