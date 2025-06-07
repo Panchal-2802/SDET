@@ -5,6 +5,7 @@ package staticVariableAndMethods;
 public class StaticDemo {
 static int a=10; 
 int b=20;
+static String var = "welcome";
 void method1() {
 	System.out.println();
 	System.out.println("This non - static method ");

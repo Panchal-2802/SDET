@@ -14,6 +14,14 @@ public class StaticDemo2 {
 		StaticDemo obj1 = new StaticDemo();
 		obj1.method1();
 		
+		String var1 = StaticDemo.var;
+		System.out.println("The length of varaible : " + var1.length());
+		System.out.println("Approach - 2 find length of variable " + StaticDemo.var.length());
+		
+		/*What is System.out.println() means?
+		 * Ans:- System is a predefined class and out is a static variable and println is belong to PrintStream class (its a predefined java class) 
+		 * */
+		
 
 	}
 
